@@ -1,0 +1,15 @@
+{
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Beattie",
+  "license": "ISC",
+  "dependencies": {
+    "parse5": "^5.1.0",
+    "puppeteer": "^1.11.0"
+  }
+}

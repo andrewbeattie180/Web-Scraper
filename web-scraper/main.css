@@ -1,0 +1,92 @@
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:bold,sans-serif');
+
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+p{
+  font-size:1.3em;
+  margin:0;
+}
+
+h1{
+  font-size:2rem;
+  padding-top:10%;
+}
+
+
+.search-holder input{
+  font-size: 1.2em;
+}
+
+body {
+  text-align: center;
+  background-color: #333333;
+  min-height: 100vh;
+}
+
+.App-header {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: row;
+  color: white !important;
+  justify-content: center;
+}
+
+.content{
+  max-width: 30em;
+  padding: 3em;
+  
+}
+
+.search-holder{
+  width:100%;
+  max-width: 30em;
+  position: relative;
+  margin-top:10px;
+  
+}
+
+.search-holder input{
+  padding: 0.8em 0.6em 0.8em 3em;
+  margin: 0;
+  box-sizing: border-box;
+  border: solid 2px gray;
+  border-radius: 5px;
+  color: #0B2239;
+  width: 100%;
+}
+
+.search-holder button{
+  left: 0;
+  height: 100%;
+}
+
+button{
+    position: absolute;
+    top: 0;
+    box-sizing: border-box;
+    font-size: 2em;
+    padding: 0em .5em;
+    background: none;
+    border:none;
+    color:gray;
+}
+
+.division{
+    border-top: 3px double #8c8b8b;
+}
+
+
+
+
+
+
+
+
+
